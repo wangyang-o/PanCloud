@@ -1,2 +1,26 @@
-# PanCloud
-基于hdfs，javaweb servlet的简易网盘（云盘）完整版本，包含文件，文件夹的添加删除，以及单个文件的上传下载，文件，文件夹任意移动的。
+博主掌握的javaweb只是不是很多，所以jsp的有些操作看起来有点复杂化了，如果有好的建议，欢迎在下方留言，提出建议。阅读此项目系列文章前请观看效果展示，以判断是否符合你的需求。[同学博客链接](https://hexo.bob0118.club/)
+
+[toc]
+## 1.开发环境
+|hadoop3.1.3|ubuntu18.04  | tomcat9 |
+|--|--|--|
+|bootstrap4  | eclipse IDE | 火狐或谷歌浏览器 |
+## 2.项目功能
+
+ - a.用户管理
+用户的注册，登录，退出。注册成功时需要将用户信息写入数据库，并在HDFS中建立用户的专属目录。
+ - b.文件管理
+提供文件上传，下载，删除等功能。提供目录的管理，可以创建目录，复制或移动文件或目录到指定目录下面；可以删除目录。
+ - c.界面设计
+为系统设计并实现主界面，基于窗口或基于浏览器均可。所有操作均在人机交互界面中完成。
+## 3.视频演示
+[b站视频链接](https://www.bilibili.com/video/BV1Ri4y1s7Xz/)
+
+[video(video-dlASdxMK-1591585560117)(type-bilibili)(url-https://player.bilibili.com/player.html?aid=540903587)(image-https://ss.csdn.net/p?http://i0.hdslb.com/bfs/archive/546a10eb949362079cb7f776b299b82a465a2db7.jpg)(title-基于hdfs的javaweb云盘基础功能(效果演示))]
+
+## 4.最后
+这里是[github项目地址](https://github.com/wangyang-o/PanCloud)，为方便快速下载也可以[gitee下载](https://gitee.com/ojbk66/PanCloud)
+
+## 下载时记得点个star哦！
+
+后续详细的一些代码说明将逐渐更新。
